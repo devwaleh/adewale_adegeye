@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Work+Sans&display=swap');
+
+body{
+	background-color:#F0F2F5;
+	font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Work Sans', sans-serif;
+} 
+#hero{
+	background-image:url('../images/hero.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	min-height:150px;
+}
+
+#mymenu{
+	display:flex;
+	align-items:end;
+}
+
+#mymail{
+	color:white;
+}
+
+#contacticon a{
+	color:white;
+}
+
+#quality{
+	list-style-type:circle;
+}
+
+a{
+	text-decoration:none;
+}
+
+/* #mainNav{
+	background-color: blue;
+} */
